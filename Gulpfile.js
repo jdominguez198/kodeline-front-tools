@@ -6,9 +6,9 @@ const rename = require('gulp-rename');
 const inject = require('gulp-inject');
 const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
 const htmlInjector = require('bs-html-injector');
 const htmlReplace = require('gulp-replace');
-//const uglify = require('gulp-uglify');
 
 // BrowserSync
 const browserSync = require('browser-sync').create();
@@ -43,7 +43,7 @@ gulp.task(TASK_COMPILE_SASS, function() {
 
 // Task to minify and concat all js files
 gulp.task(TASK_COMPILE_JS, function() {
-    return taskCompileJs( gulp, concat, browserSync );
+    return taskCompileJs( gulp, concat, uglify, browserSync );
 });
 
 // Task to inject the html layout files at necessary

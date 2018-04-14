@@ -1,0 +1,70 @@
+{
+  "site_config": {
+    "environment": "dev",
+    "author": "kodeline",
+    "description": "Simple Web",
+    "title": "kodeline",
+    "lang": "es",
+    "url": "http://localhost:3000"
+  },
+  "path_config": {
+    "source": {
+      "base": "src",
+      "sass": {
+        "base": "sass",
+        "core": "core",
+        "mixins": "mixins",
+        "layout": "layout",
+        "components": "components"
+      },
+      "html": {
+        "base": "html",
+        "components": "components",
+        "layout": "layout"
+      },
+      "js": "js"
+    },
+    "distribution": {
+      "base": "dist",
+      "css": "assets/css",
+      "js": "assets/js"
+    }
+  },
+  "inject_config": {
+    "html_component_header": {
+      "start_tag": "<!-- inject:header:html -->",
+      "end_tag": "<!-- endinject:header:html -->"
+    },
+    "html_component_footer": {
+      "start_tag": "<!-- inject:footer:html -->",
+      "end_tag": "<!-- endinject:footer:html -->"
+    },
+    "html_layout_open": {
+      "start_tag": "<!-- inject:layout:open -->",
+      "end_tag": "<!-- endinject:layout:open -->"
+    },
+    "html_layout_close": {
+      "start_tag": "<!-- inject:layout:close -->",
+      "end_tag": "<!-- endinject:layout:close -->"
+    },
+    "sass": {
+      "start_tag": "",
+      "end_tag": ""
+    }
+  },
+  "files": {
+    "source": {
+      "sass": "styles.scss",
+      "html": {
+        "layout_open": "layout-open.html",
+        "layout_close": "layout-close.html",
+        "component_header": "header.html",
+        "component_footer": "footer.html"
+      }
+    },
+    "distribution": {
+      "js": "kodeline.min.js",
+      "css": "kodeline.min.css"
+    }
+  }
+}
