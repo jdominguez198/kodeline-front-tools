@@ -1,10 +1,10 @@
 {
   "site_config": {
     "environment": "dev",
-    "author": "kodeline",
-    "description": "Simple Web",
-    "title": "kodeline",
-    "lang": "es",
+    "author": "Me!",
+    "description": "Just doing a new web :D",
+    "title": "Simple Web",
+    "lang": "en",
     "url": "http://localhost:3000"
   },
   "path_config": {
@@ -63,8 +63,8 @@
       }
     },
     "distribution": {
-      "js": "kodeline.min.js",
-      "css": "kodeline.min.css"
+      "js": "scripts.min.js",
+      "css": "styles.min.css"
     }
   }
 }
