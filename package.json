@@ -4,7 +4,8 @@
   "description": "A starter pack to make web easy with sass, css and js minification, and http dev server",
   "main": "gulp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "generate-ssl-certificates": "gen-ssl/generate-ssl.sh localhost"
   },
   "author": "",
   "license": "ISC",

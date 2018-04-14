@@ -21,3 +21,5 @@ dist/assets/*
 dist/*
 !dist/*/
 cnf/config.json
+cnf/ssl/*
+!cnf/ssl/.gitkeep
