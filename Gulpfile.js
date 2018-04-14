@@ -43,7 +43,7 @@ gulp.task(TASK_COMPILE_SASS, function() {
 
 // Task to minify and concat all js files
 gulp.task(TASK_COMPILE_JS, function() {
-    return taskCompileJs( gulp, concat, uglify, browserSync );
+    return taskCompileJs( gulp, sourcemaps, concat, uglify, browserSync );
 });
 
 // Task to inject the html layout files at necessary

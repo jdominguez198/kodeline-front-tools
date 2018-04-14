@@ -1,5 +1,5 @@
 /**
- * Document Ready cross-browser funciton
+ * Document Ready cross-browser function
  * https://github.com/jfriend00/docReady
  */
 (function(funcName, baseObj) {
